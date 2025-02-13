@@ -5,6 +5,7 @@ import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
+import Destinations from './components/Destionations';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Analytics />
+      <Destinations />
       <Newsletter />
       <Cards />
       <Footer />
