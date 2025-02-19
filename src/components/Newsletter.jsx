@@ -12,7 +12,8 @@ const Newsletter = () => {
             </div>
             <div className='my-4'>
                 <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-                    <input className='p-3 flex w-full rounded-md text-black bg-white' 
+                    <input 
+                    className='p-3 flex w-full rounded-md text-black bg-white ' 
                     type="email" 
                     placeholder='enter email' />
                     <button className='bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 px-6 mx-auto py-3 text-black hover:bg-white duration-500 cursor-pointer'>Notify Me</button>
